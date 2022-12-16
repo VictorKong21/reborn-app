@@ -1,0 +1,946 @@
+[
+  {
+    "Country": " India",
+    "Births": "23,114,000"
+  },
+  {
+    "Country": " China",
+    "Births": "10,881,567"
+  },
+  {
+    "Country": " Nigeria",
+    "Births": "7,923,294"
+  },
+  {
+    "Country": " Pakistan",
+    "Births": "6,374,741"
+  },
+  {
+    "Country": " Indonesia",
+    "Births": "4,496,383"
+  },
+  {
+    "Country": " Democratic Republic of the Congo",
+    "Births": "4,034,953"
+  },
+  {
+    "Country": " Ethiopia",
+    "Births": "3,895,734"
+  },
+  {
+    "Country": " United States",
+    "Births": "3,722,822"
+  },
+  {
+    "Country": " Bangladesh",
+    "Births": "3,019,672"
+  },
+  {
+    "Country": " Brazil",
+    "Births": "2,760,958"
+  },
+  {
+    "Country": " Philippines",
+    "Births": "2,485,008"
+  },
+  {
+    "Country": " Egypt",
+    "Births": "2,465,005"
+  },
+  {
+    "Country": " Tanzania",
+    "Births": "2,303,114"
+  },
+  {
+    "Country": " Mexico",
+    "Births": "1,882,362"
+  },
+  {
+    "Country": " Uganda",
+    "Births": "1,686,795"
+  },
+  {
+    "Country": " Sudan",
+    "Births": "1,534,332"
+  },
+  {
+    "Country": " Kenya",
+    "Births": "1,468,358"
+  },
+  {
+    "Country": " Vietnam",
+    "Births": "1,462,623"
+  },
+  {
+    "Country": " Afghanistan",
+    "Births": "1,440,941"
+  },
+  {
+    "Country": " Russia",
+    "Births": "1,397,456"
+  },
+  {
+    "Country": " Angola",
+    "Births": "1,338,792"
+  },
+  {
+    "Country": " Turkey",
+    "Births": "1,244,782"
+  },
+  {
+    "Country": " Iran",
+    "Births": "1,204,105"
+  },
+  {
+    "Country": " Iraq",
+    "Births": "1,192,345"
+  },
+  {
+    "Country": " South Africa",
+    "Births": "1,176,955"
+  },
+  {
+    "Country": " Mozambique",
+    "Births": "1,174,346"
+  },
+  {
+    "Country": " Niger",
+    "Births": "1,144,371"
+  },
+  {
+    "Country": " Yemen",
+    "Births": "1,008,936"
+  },
+  {
+    "Country": " Algeria",
+    "Births": "950,888"
+  },
+  {
+    "Country": " Cameroon",
+    "Births": "950,546"
+  },
+  {
+    "Country": " Ivory Coast",
+    "Births": "932,943"
+  },
+  {
+    "Country": " Myanmar",
+    "Births": "920,395"
+  },
+  {
+    "Country": " Mali",
+    "Births": "912,901"
+  },
+  {
+    "Country": " Ghana",
+    "Births": "904,679"
+  },
+  {
+    "Country": " Madagascar",
+    "Births": "895,045"
+  },
+  {
+    "Country": " Japan",
+    "Births": "818,509"
+  },
+  {
+    "Country": " Uzbekistan",
+    "Births": "802,875"
+  },
+  {
+    "Country": " Burkina Faso",
+    "Births": "785,817"
+  },
+  {
+    "Country": " Germany",
+    "Births": "763,168"
+  },
+  {
+    "Country": " Chad",
+    "Births": "744,834"
+  },
+  {
+    "Country": " Somalia",
+    "Births": "743,932"
+  },
+  {
+    "Country": " Colombia",
+    "Births": "730,203"
+  },
+  {
+    "Country": " France",
+    "Births": "677,303"
+  },
+  {
+    "Country": " United Kingdom",
+    "Births": "677,219"
+  },
+  {
+    "Country": " Zambia",
+    "Births": "672,000"
+  },
+  {
+    "Country": " Malawi",
+    "Births": "653,703"
+  },
+  {
+    "Country": " Morocco",
+    "Births": "650,892"
+  },
+  {
+    "Country": " Thailand",
+    "Births": "644,325"
+  },
+  {
+    "Country": " Argentina",
+    "Births": "629,391"
+  },
+  {
+    "Country": " Saudi Arabia",
+    "Births": "629,339"
+  },
+  {
+    "Country": "   Nepal",
+    "Births": "609,790"
+  },
+  {
+    "Country": " Peru",
+    "Births": "593,523"
+  },
+  {
+    "Country": " Senegal",
+    "Births": "549,984"
+  },
+  {
+    "Country": " Malaysia",
+    "Births": "511,313"
+  },
+  {
+    "Country": " Zimbabwe",
+    "Births": "488,807"
+  },
+  {
+    "Country": " Benin",
+    "Births": "475,832"
+  },
+  {
+    "Country": " Guinea",
+    "Births": "465,954"
+  },
+  {
+    "Country": " Venezuela",
+    "Births": "451,855"
+  },
+  {
+    "Country": " Burundi",
+    "Births": "437,599"
+  },
+  {
+    "Country": " Syria",
+    "Births": "426,856"
+  },
+  {
+    "Country": " Kazakhstan",
+    "Births": "413,483"
+  },
+  {
+    "Country": " Italy",
+    "Births": "410,487"
+  },
+  {
+    "Country": " Rwanda",
+    "Births": "403,681"
+  },
+  {
+    "Country": " Canada",
+    "Births": "373,728"
+  },
+  {
+    "Country": " Guatemala",
+    "Births": "372,146"
+  },
+  {
+    "Country": " Poland",
+    "Births": "363,427"
+  },
+  {
+    "Country": " Spain",
+    "Births": "357,652"
+  },
+  {
+    "Country": " North Korea",
+    "Births": "343,885"
+  },
+  {
+    "Country": " Ukraine",
+    "Births": "336,096"
+  },
+  {
+    "Country": " Cambodia",
+    "Births": "320,934"
+  },
+  {
+    "Country": " South Sudan",
+    "Births": "313,347"
+  },
+  {
+    "Country": " Sri Lanka",
+    "Births": "305,877"
+  },
+  {
+    "Country": " Ecuador",
+    "Births": "298,989"
+  },
+  {
+    "Country": " Australia",
+    "Births": "298,496"
+  },
+  {
+    "Country": " South Korea",
+    "Births": "289,006"
+  },
+  {
+    "Country": " Togo",
+    "Births": "275,435"
+  },
+  {
+    "Country": " Haiti",
+    "Births": "269,377"
+  },
+  {
+    "Country": " Sierra Leone",
+    "Births": "264,106"
+  },
+  {
+    "Country": " Bolivia",
+    "Births": "263,820"
+  },
+  {
+    "Country": " Tajikistan",
+    "Births": "260,838"
+  },
+  {
+    "Country": " Papua New Guinea",
+    "Births": "253,720"
+  },
+  {
+    "Country": " Jordan",
+    "Births": "244,557"
+  },
+  {
+    "Country": " Central African Republic",
+    "Births": "234,821"
+  },
+  {
+    "Country": " Chile",
+    "Births": "229,116"
+  },
+  {
+    "Country": " Honduras",
+    "Births": "216,645"
+  },
+  {
+    "Country": " Dominican Republic",
+    "Births": "205,050"
+  },
+  {
+    "Country": " Tunisia",
+    "Births": "197,396"
+  },
+  {
+    "Country": " Romania",
+    "Births": "195,366"
+  },
+  {
+    "Country": " Taiwan",
+    "Births": "185,885"
+  },
+  {
+    "Country": " Netherlands",
+    "Births": "180,273"
+  },
+  {
+    "Country": " Republic of the Congo",
+    "Births": "179,193"
+  },
+  {
+    "Country": " Israel",
+    "Births": "174,335"
+  },
+  {
+    "Country": " Laos",
+    "Births": "163,261"
+  },
+  {
+    "Country": " Liberia",
+    "Births": "162,685"
+  },
+  {
+    "Country": " Kyrgyzstan",
+    "Births": "157,661"
+  },
+  {
+    "Country": " Mauritania",
+    "Births": "153,242"
+  },
+  {
+    "Country": " Palestine",
+    "Births": "145,128"
+  },
+  {
+    "Country": " Nicaragua",
+    "Births": "140,589"
+  },
+  {
+    "Country": " Paraguay",
+    "Births": "138,365"
+  },
+  {
+    "Country": " Turkmenistan",
+    "Births": "136,968"
+  },
+  {
+    "Country": " Azerbaijan",
+    "Births": "127,085"
+  },
+  {
+    "Country": " Libya",
+    "Births": "120,072"
+  },
+  {
+    "Country": " Belgium",
+    "Births": "116,448"
+  },
+  {
+    "Country": " Sweden",
+    "Births": "113,322"
+  },
+  {
+    "Country": " Czech Republic",
+    "Births": "103,948"
+  },
+  {
+    "Country": " Eritrea",
+    "Births": "103,861"
+  },
+  {
+    "Country": " El Salvador",
+    "Births": "101,405"
+  },
+  {
+    "Country": " Cuba",
+    "Births": "100,445"
+  },
+  {
+    "Country": " United Arab Emirates",
+    "Births": "96,536"
+  },
+  {
+    "Country": " Hungary",
+    "Births": "91,895"
+  },
+  {
+    "Country": " Belarus",
+    "Births": "88,853"
+  },
+  {
+    "Country": " Gambia",
+    "Births": "87,840"
+  },
+  {
+    "Country": " Switzerland",
+    "Births": "87,086"
+  },
+  {
+    "Country": " Austria",
+    "Births": "84,647"
+  },
+  {
+    "Country": " Lebanon",
+    "Births": "84,450"
+  },
+  {
+    "Country": " Oman",
+    "Births": "83,496"
+  },
+  {
+    "Country": " Portugal",
+    "Births": "80,480"
+  },
+  {
+    "Country": " Greece",
+    "Births": "79,072"
+  },
+  {
+    "Country": " Panama",
+    "Births": "76,933"
+  },
+  {
+    "Country": " Mongolia",
+    "Births": "71,668"
+  },
+  {
+    "Country": " Namibia",
+    "Births": "69,486"
+  },
+  {
+    "Country": " Serbia",
+    "Births": "67,609"
+  },
+  {
+    "Country": " Guinea-Bissau",
+    "Births": "64,086"
+  },
+  {
+    "Country": " New Zealand",
+    "Births": "63,557"
+  },
+  {
+    "Country": " Gabon",
+    "Births": "63,525"
+  },
+  {
+    "Country": " Denmark",
+    "Births": "63,148"
+  },
+  {
+    "Country": " Costa Rica",
+    "Births": "61,176"
+  },
+  {
+    "Country": " Botswana",
+    "Births": "60,999"
+  },
+  {
+    "Country": " Lesotho",
+    "Births": "59,581"
+  },
+  {
+    "Country": " Ireland",
+    "Births": "58,563"
+  },
+  {
+    "Country": " Bulgaria",
+    "Births": "58,112"
+  },
+  {
+    "Country": " Slovakia",
+    "Births": "54,351"
+  },
+  {
+    "Country": " Norway",
+    "Births": "53,868"
+  },
+  {
+    "Country": " Georgia",
+    "Births": "50,430"
+  },
+  {
+    "Country": " Equatorial Guinea",
+    "Births": "49,749"
+  },
+  {
+    "Country": " Finland",
+    "Births": "46,891"
+  },
+  {
+    "Country": " Kuwait",
+    "Births": "44,412"
+  },
+  {
+    "Country": " Hong Kong",
+    "Births": "42,908"
+  },
+  {
+    "Country": " Singapore",
+    "Births": "42,215"
+  },
+  {
+    "Country": " Moldova",
+    "Births": "38,146"
+  },
+  {
+    "Country": " Uruguay",
+    "Births": "35,892"
+  },
+  {
+    "Country": " Croatia",
+    "Births": "34,733"
+  },
+  {
+    "Country": " Armenia",
+    "Births": "33,700"
+  },
+  {
+    "Country": " Jamaica",
+    "Births": "33,150"
+  },
+  {
+    "Country": " Timor-Leste",
+    "Births": "32,976"
+  },
+  {
+    "Country": " Albania",
+    "Births": "29,289"
+  },
+  {
+    "Country": " Eswatini",
+    "Births": "28,831"
+  },
+  {
+    "Country": " Bosnia and Herzegovina",
+    "Births": "27,646"
+  },
+  {
+    "Country": " Lithuania",
+    "Births": "26,862"
+  },
+  {
+    "Country": " Puerto Rico",
+    "Births": "26,548"
+  },
+  {
+    "Country": " Qatar",
+    "Births": "26,529"
+  },
+  {
+    "Country": " Djibouti",
+    "Births": "24,541"
+  },
+  {
+    "Country": " Comoros",
+    "Births": "24,180"
+  },
+  {
+    "Country": " Solomon Islands",
+    "Births": "21,098"
+  },
+  {
+    "Country": " North Macedonia",
+    "Births": "20,114"
+  },
+  {
+    "Country": " Slovenia",
+    "Births": "19,147"
+  },
+  {
+    "Country": " Kosovo",
+    "Births": "18,604"
+  },
+  {
+    "Country": " Fiji",
+    "Births": "17,943"
+  },
+  {
+    "Country": " Trinidad and Tobago",
+    "Births": "17,814"
+  },
+  {
+    "Country": " Bahrain",
+    "Births": "17,501"
+  },
+  {
+    "Country": " Latvia",
+    "Births": "17,024"
+  },
+  {
+    "Country": " Guyana",
+    "Births": "16,375"
+  },
+  {
+    "Country": " Réunion",
+    "Births": "14,071"
+  },
+  {
+    "Country": " Estonia",
+    "Births": "13,639"
+  },
+  {
+    "Country": " Mauritius",
+    "Births": "13,437"
+  },
+  {
+    "Country": " Cyprus",
+    "Births": "12,820"
+  },
+  {
+    "Country": " Suriname",
+    "Births": "11,133"
+  },
+  {
+    "Country": " Mayotte",
+    "Births": "10,641"
+  },
+  {
+    "Country": " Cape Verde",
+    "Births": "9,976"
+  },
+  {
+    "Country": " Bhutan",
+    "Births": "9,703"
+  },
+  {
+    "Country": " Western Sahara",
+    "Births": "9,461"
+  },
+  {
+    "Country": " Vanuatu",
+    "Births": "9,398"
+  },
+  {
+    "Country": " French Guiana",
+    "Births": "7,503"
+  },
+  {
+    "Country": " Maldives",
+    "Births": "7,337"
+  },
+  {
+    "Country": " Belize",
+    "Births": "7,186"
+  },
+  {
+    "Country": " Montenegro",
+    "Births": "6,965"
+  },
+  {
+    "Country": " Macau",
+    "Births": "6,921"
+  },
+  {
+    "Country": " Luxembourg",
+    "Births": "6,589"
+  },
+  {
+    "Country": " São Tomé and Príncipe",
+    "Births": "6,318"
+  },
+  {
+    "Country": " Brunei",
+    "Births": "6,147"
+  },
+  {
+    "Country": " Samoa",
+    "Births": "5,975"
+  },
+  {
+    "Country": " Bahamas",
+    "Births": "4,666"
+  },
+  {
+    "Country": " Malta",
+    "Births": "4,664"
+  },
+  {
+    "Country": " Iceland",
+    "Births": "4,572"
+  },
+  {
+    "Country": " Guadeloupe",
+    "Births": "4,467"
+  },
+  {
+    "Country": " New Caledonia",
+    "Births": "4,158"
+  },
+  {
+    "Country": " French Polynesia",
+    "Births": "3,881"
+  },
+  {
+    "Country": " Martinique",
+    "Births": "3,524"
+  },
+  {
+    "Country": " Kiribati",
+    "Births": "3,510"
+  },
+  {
+    "Country": " Barbados",
+    "Births": "3,046"
+  },
+  {
+    "Country": " Guam",
+    "Births": "2,795"
+  },
+  {
+    "Country": " Tonga",
+    "Births": "2,454"
+  },
+  {
+    "Country": " Federated States of Micronesia",
+    "Births": "2,357"
+  },
+  {
+    "Country": " Curaçao",
+    "Births": "2,167"
+  },
+  {
+    "Country": " Saint Lucia",
+    "Births": "2,064"
+  },
+  {
+    "Country": " Grenada",
+    "Births": "1,990"
+  },
+  {
+    "Country": " Seychelles",
+    "Births": "1,642"
+  },
+  {
+    "Country": " Saint Vincent and the Grenadines",
+    "Births": "1,348"
+  },
+  {
+    "Country": " United States Virgin Islands",
+    "Births": "1,147"
+  },
+  {
+    "Country": " Jersey",
+    "Births": "1,134"
+  },
+  {
+    "Country": " Antigua and Barbuda",
+    "Births": "1,129"
+  },
+  {
+    "Country": " Dominica",
+    "Births": "965"
+  },
+  {
+    "Country": " Marshall Islands",
+    "Births": "829"
+  },
+  {
+    "Country": " Faroe Islands",
+    "Births": "814"
+  },
+  {
+    "Country": " Greenland",
+    "Births": "810"
+  },
+  {
+    "Country": " American Samoa",
+    "Births": "788"
+  },
+  {
+    "Country": " Aruba",
+    "Births": "764"
+  },
+  {
+    "Country": " Isle of Man",
+    "Births": "717"
+  },
+  {
+    "Country": " Cayman Islands",
+    "Births": "679"
+  },
+  {
+    "Country": " Guernsey",
+    "Births": "613"
+  },
+  {
+    "Country": " Northern Mariana Islands",
+    "Births": "608"
+  },
+  {
+    "Country": " Saint Kitts and Nevis",
+    "Births": "578"
+  },
+  {
+    "Country": " Andorra",
+    "Births": "567"
+  },
+  {
+    "Country": " Turks and Caicos Islands",
+    "Births": "559"
+  },
+  {
+    "Country": " Bermuda",
+    "Births": "497"
+  },
+  {
+    "Country": " Saint Martin",
+    "Births": "488"
+  },
+  {
+    "Country": " Liechtenstein",
+    "Births": "358"
+  },
+  {
+    "Country": " Gibraltar",
+    "Births": "350"
+  },
+  {
+    "Country": " Nauru",
+    "Births": "346"
+  },
+  {
+    "Country": " Sint Maarten",
+    "Births": "336"
+  },
+  {
+    "Country": " Monaco",
+    "Births": "322"
+  },
+  {
+    "Country": " Caribbean Netherlands",
+    "Births": "286"
+  },
+  {
+    "Country": " Cook Islands",
+    "Births": "277"
+  },
+  {
+    "Country": " Palau",
+    "Births": "273"
+  },
+  {
+    "Country": " Tuvalu",
+    "Births": "263"
+  },
+  {
+    "Country": " British Virgin Islands",
+    "Births": "237"
+  },
+  {
+    "Country": " San Marino",
+    "Births": "202"
+  },
+  {
+    "Country": " Anguilla",
+    "Births": "150"
+  },
+  {
+    "Country": " Wallis and Futuna",
+    "Births": "138"
+  },
+  {
+    "Country": " Saint Barthélemy",
+    "Births": "88"
+  },
+  {
+    "Country": " Saint Pierre and Miquelon",
+    "Births": "45"
+  },
+  {
+    "Country": " Falkland Islands",
+    "Births": "42"
+  },
+  {
+    "Country": " Saint Helena, Ascension and Tristan da Cunha",
+    "Births": "41"
+  },
+  {
+    "Country": " Montserrat",
+    "Births": "40"
+  },
+  {
+    "Country": " Tokelau",
+    "Births": "35"
+  },
+  {
+    "Country": " Niue",
+    "Births": "27"
+  }
+]

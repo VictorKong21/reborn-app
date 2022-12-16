@@ -1,3 +1,9 @@
-h1 {
-  color:red
+.leaflet-container {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+}
+
+button {
+  margin: auto;
 }
