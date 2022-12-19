@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -6,50 +6,56 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import { v4 as uuidv4 } from "uuid";
+import { Button } from "@mui/material";
 
-function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
+function createData(reroll, location) {
+  return { reroll, location };
 }
 
-const rows = [
-  createData("Country", 159, 6.0, 24, 4.0),
-  createData("Country", 237, 9.0, 37, 4.3),
-  createData("Country", 262, 16.0, 24, 6.0),
-  createData("Country", 305, 3.7, 67, 4.3),
-  createData("Country", 356, 16.0, 49, 3.9),
-];
+// const rows = [
+//   createData(1, "Japan"),
+//   createData(2, "Spain"),
+//   createData(3, "Ireland"),
+// ];
 
 function TablePlaceHolder() {
+  const [rows, setRows] = useState([]);
+
+  function handleRows() {
+    setRows([createData(1, "Japan")]);
+  }
+
   return (
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell>Place Holder</TableCell>
-            <TableCell align="right">Place Holder</TableCell>
-            <TableCell align="right">Place Holder</TableCell>
-            <TableCell align="right">Place Holder</TableCell>
-            <TableCell align="right">Place Holder</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map(row => (
-            <TableRow
-              key={row.name}
-              sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
-            >
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
-              <TableCell align="right">{row.calories}</TableCell>
-              <TableCell align="right">{row.fat}</TableCell>
-              <TableCell align="right">{row.carbs}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell>
+    <>
+      <TableContainer component={Paper}>
+        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+          <TableHead>
+            <TableRow>
+              <TableCell>Reroll</TableCell>
+              <TableCell>Country</TableCell>
             </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+          </TableHead>
+          <TableBody>
+            {rows.map(row => (
+              <TableRow
+                key={uuidv4()}
+                sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+              >
+                <TableCell component="th" scope="row">
+                  {row.reroll}
+                </TableCell>
+                <TableCell>{row.location}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+      {/* Test Button for updating table*/}
+      <Button onClick={handleRows} color="error" variant="contained">
+        Test Button
+      </Button>
+    </>
   );
 }
 
