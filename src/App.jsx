@@ -16,6 +16,7 @@ import {
   Typography,
   Paper,
 } from "@mui/material";
+import { DataGrid } from "@mui/x-data-grid";
 import { v4 as uuidv4 } from "uuid";
 
 function App() {
@@ -55,6 +56,24 @@ function App() {
       fontSize: 14,
     },
   }));
+
+  // Table 2
+  const columns = [
+    { field: "id", headerName: "ID", width: 50 },
+    { field: "lastName", headerName: "Last name", width: 130 },
+  ];
+
+  const rows = [
+    { id: 1, lastName: "Snow" },
+    { id: 2, lastName: "Lannister" },
+    { id: 3, lastName: "Lannister" },
+    { id: 4, lastName: "Stark" },
+    { id: 5, lastName: "Targaryen" },
+    { id: 6, lastName: "Melisandre" },
+    { id: 7, lastName: "Clifford" },
+    { id: 8, lastName: "Frances" },
+    { id: 9, lastName: "Roxie" },
+  ];
 
   return (
     <Stack alignItems="center" spacing={2}>
@@ -102,6 +121,17 @@ function App() {
           </Table>
         </TableContainer>
       </Box>
+
+      {/* Table2 */}
+      <div style={{ height: 400, width: "100%" }}>
+        <DataGrid
+          disableColumnMenu
+          rows={rows}
+          columns={columns}
+          // pageSize={5}
+          rowsPerPageOptions={[5]}
+        />
+      </div>
     </Stack>
   );
 }
