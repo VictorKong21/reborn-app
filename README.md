@@ -6,6 +6,8 @@ TODO:
 4) Add export feature (png or share with friends)
 5) Stimulation feature (dropdown menu)
 6) Update Table header (visual)
+7) Only show table after first click
+8) Add filtering feature to columns, sort table by reroll desc
 99) Modulise components
 
 Packages used:

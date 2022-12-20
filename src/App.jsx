@@ -1,14 +1,21 @@
 import React, { useState } from "react";
-import Button from "@mui/material/Button";
 import { useMap, MapContainer, TileLayer, Marker } from "react-leaflet";
 import data from "./data/location_list.json";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
+import {
+  Button,
+  Box,
+  Stack,
+  styled,
+  Table,
+  TableBody,
+  TableCell,
+  tableCellClasses,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Typography,
+  Paper,
+} from "@mui/material";
 import { v4 as uuidv4 } from "uuid";
 
 function App() {
@@ -38,33 +45,45 @@ function App() {
     });
     return null;
   }
+  // Table header formatting
+  const StyledTableCell = styled(TableCell)(({ theme }) => ({
+    [`&.${tableCellClasses.head}`]: {
+      backgroundColor: theme.palette.primary.main,
+      color: theme.palette.primary.contrastText,
+    },
+    [`&.${tableCellClasses.body}`]: {
+      fontSize: 14,
+    },
+  }));
 
   return (
-    <>
-      <h1>Title here</h1>
+    <Stack alignItems="center" spacing={2}>
+      {/* Title */}
+      <Typography variant="h4">Title</Typography>
       {/* Map Component */}
-      <>
-        <MapContainer center={[0, 0]} zoom={1.5} attributionControl={false}>
-          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-          <Marker position={pinLocation}></Marker>
-          <UpdateMapCentre mapCentre={pinLocation} />
-        </MapContainer>
-        <Button onClick={handlePinLocation} variant="contained">
-          Refresh Data
-        </Button>
-      </>
+      <MapContainer center={[0, 0]} zoom={1.5} attributionControl={false}>
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <Marker position={pinLocation}></Marker>
+        <UpdateMapCentre mapCentre={pinLocation} />
+      </MapContainer>
+
+      {/* Refresh Button */}
+      <Button onClick={handlePinLocation} variant="contained">
+        Refresh Data
+      </Button>
+
       {/* Table */}
-      <>
+      <Box sx={{ width: "50%" }}>
         <TableContainer component={Paper}>
-          <Table aria-label="simple table">
+          <Table sx={{ minWidth: 650 }} size="small">
             <colgroup>
               <col style={{ width: "30%" }} />
               <col style={{ width: "70%" }} />
             </colgroup>
             <TableHead>
               <TableRow>
-                <TableCell>Reroll</TableCell>
-                <TableCell>Country</TableCell>
+                <StyledTableCell align="center">Reroll</StyledTableCell>
+                <StyledTableCell align="center">Country</StyledTableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -73,17 +92,17 @@ function App() {
                   key={uuidv4()}
                   sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                 >
-                  <TableCell component="th" scope="row">
+                  <TableCell component="th" scope="row" align="center">
                     {index + 1}
                   </TableCell>
-                  <TableCell>{country}</TableCell>
+                  <TableCell align="center">{country}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
           </Table>
         </TableContainer>
-      </>
-    </>
+      </Box>
+    </Stack>
   );
 }
 
