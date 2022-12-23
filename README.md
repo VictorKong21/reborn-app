@@ -1,10 +1,8 @@
 <!--
 TODO:
-1) Map data in country location and birth by country JSON files
-2) Randomise location based on probability
-3) Responsive interface
-4) Add export feature (png or share with friends)
-5) Stimulation feature (dropdown menu)
+1) Responsive interface
+2) Add export feature (png or share with friends)
+3) Stimulation feature (dropdown menu)
 99) Modulise components
 
 Packages used:

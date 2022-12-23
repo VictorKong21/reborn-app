@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import { useMap, MapContainer, TileLayer, Marker } from "react-leaflet";
 import data from "./data/location_list.json";
 import data2 from "./data/births_by_location.json";
-import { Box, Button, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Stack,
+  Typography,
+  TextField,
+  Autocomplete,
+} from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 
 function App() {
@@ -26,29 +33,23 @@ function App() {
   console.log(mergedData);
 
   function getRandomCountryIndex() {
-    // Calculate the total number of births
     const totalBirths = mergedData.reduce(
       (acc, birth) =>
         acc + Number(JSON.stringify(birth.Births).replace(/,/g, "")),
       0
     );
-
-    // Generate a random number between 0 and the total number of births
     const rand = Math.random() * totalBirths;
 
-    // Loop through the birthsByLocation array and keep track of the running total of births and the current index
     let runningTotal = 0;
     let index = 0;
     for (const birth of mergedData) {
       runningTotal += Number(JSON.stringify(birth.Births).replace(/,/g, ""));
       if (runningTotal > rand) {
-        // When the running total of births exceeds the random number, return the current index
         return index;
       }
       index++;
     }
 
-    // Return -1 as a default value if the random number falls outside the range of the running total of births
     return -1;
   }
 
@@ -119,7 +120,31 @@ function App() {
         Refresh Data
       </Button>
 
-      {/* Table2 */}
+      {/* Dropdown Menu */}
+
+      <Autocomplete
+        id="country-select-demo"
+        sx={{ width: 300 }}
+        options={mergedData}
+        autoHighlight
+        getOptionLabel={option => option.country}
+        renderOption={(option) => (
+            {option.country}
+          
+        )}
+        renderInput={params => (
+          <TextField
+            {...params}
+            label="Choose a country"
+            inputProps={{
+              ...params.inputProps,
+              autoComplete: "new-password", // disable autocomplete and autofill
+            }}
+          />
+        )}
+      />
+
+      {/* Table Reroll Stats */}
       <Box sx={{ height: 400, width: "50%" }}>
         <DataGrid
           rows={countryRecord}
