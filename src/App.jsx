@@ -40,7 +40,7 @@ function App() {
     let runningTotal = 0;
     let index = 0;
     for (const birth of mergedData) {
-      runningTotal += Number(birth.Births.replace(/,/g, ""));
+      runningTotal += Number(JSON.stringify(birth.Births).replace(/,/g, ""));
       if (runningTotal > rand) {
         // When the running total of births exceeds the random number, return the current index
         return index;
