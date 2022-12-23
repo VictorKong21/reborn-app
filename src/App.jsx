@@ -94,7 +94,7 @@ function App() {
     return null;
   }
 
-  // Table 2
+  // Table
   const columns = [
     { field: "id", headerName: "Reroll", flex: 0.5 },
     { field: "country", headerName: "Country", flex: 1 },

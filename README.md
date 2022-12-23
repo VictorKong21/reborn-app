@@ -1,8 +1,8 @@
 <!--
 TODO:
-1) Responsive interface
+1) Stimulation feature (work on dropdown menu logic)
 2) Add export feature (png or share with friends)
-3) Stimulation feature (dropdown menu)
+3) Responsive interface
 99) Modulise components
 
 Packages used:
