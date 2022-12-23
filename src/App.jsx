@@ -28,7 +28,8 @@ function App() {
   function getRandomCountryIndex() {
     // Calculate the total number of births
     const totalBirths = mergedData.reduce(
-      (acc, birth) => acc + Number(birth.Births.replace(/,/g, "")),
+      (acc, birth) =>
+        acc + Number(JSON.stringify(birth.Births).replace(/,/g, "")),
       0
     );
 
@@ -46,6 +47,9 @@ function App() {
       }
       index++;
     }
+
+    // Return -1 as a default value if the random number falls outside the range of the running total of births
+    return -1;
   }
 
   // Array to store country records
