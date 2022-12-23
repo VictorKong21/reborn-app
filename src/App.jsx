@@ -30,6 +30,15 @@ function App() {
       mergedData.push(data3);
     }
   }
+  mergedData.sort((a, b) => {
+    if (a.Country < b.Country) {
+      return -1;
+    } else if (a.Country > b.Country) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
   console.log(mergedData);
 
   function getRandomCountryIndex() {
@@ -127,10 +136,15 @@ function App() {
         sx={{ width: 300 }}
         options={mergedData}
         autoHighlight
-        getOptionLabel={option => option.country}
-        renderOption={(option) => (
-            {option.country}
-          
+        getOptionLabel={option => option.Country}
+        renderOption={(props, option) => (
+          <Box
+            component="li"
+            sx={{ "& > img": { mr: 2, flexShrink: 0 } }}
+            {...props}
+          >
+            {option.Country}
+          </Box>
         )}
         renderInput={params => (
           <TextField
